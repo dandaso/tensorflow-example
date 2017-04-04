@@ -18,6 +18,8 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 
 
 ## 参考URL
+
 http://no-title.com/programming/python3-tensorflow  
 http://qiita.com/uramonk/items/c207c948ccb6cd0a1346  
 http://qiita.com/KojiOhki/items/0640d01029371d6ae092
+http://qiita.com/rindai87/items/72651c702e9265595047
