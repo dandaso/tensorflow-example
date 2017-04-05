@@ -33,3 +33,5 @@ https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutoria
 http://qiita.com/uramonk/items/c207c948ccb6cd0a1346  
 http://qiita.com/KojiOhki/items/0640d01029371d6ae092  
 http://qiita.com/rindai87/items/72651c702e9265595047  
+http://qiita.com/qooa/items/3719fec3cfe764674fb9  
+
