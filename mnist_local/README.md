@@ -14,6 +14,15 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 1.0.0
 ```
 
+
+## TensorFlowの大まかな流れ
+- 1.入力用にplaceholderを用意
+- 2.重みやバイアス用にVariableを用意
+- 3.活性化関数を使って層を定義
+- 4.ロス値を定義
+- 5.最適化の方法を定義
+- 6.セッションを定義して学習を実行
+
 ## 実行
 
 
