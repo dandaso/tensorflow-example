@@ -34,17 +34,21 @@ python -c "import tensorflow as tf; print(tf.__version__)"
  mnist_mnn.pyを参考に畳み込みネットワークを実装したバージョン  
 
 ## 参考URL
-初心者のためのMNIST  
-https://www.tensorflow.org/get_started/mnist/beginners  
+
+### 構築
 【Mac】Python3（Anaconda）でTensorFlow環境を構築してみる  
 http://no-title.com/programming/python3-tensorflow  
+
+### MNIST
+初心者のためのMNIST  
+https://www.tensorflow.org/get_started/mnist/beginners  
 TensorFlow本家のチュートリアル  
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/mnist  
 TensorFlow MNIST For ML Beginners チュートリアルの実施  
-http://qiita.com/uramonk/items/c207c948ccb6cd0a1346   
+http://qiita.com/uramonk/items/c207c948ccb6cd0a1346  
 TensorFlowチュートリアル - TensorFlowメカニクス101（翻訳）  
 http://qiita.com/KojiOhki/items/0640d01029371d6ae092    
-TensorFlowのHighLevelAPIについての雑感つき解説  
+TensorFlowのHighLevelAPIについての雑感つき解説  
 http://qiita.com/rindai87/items/72651c702e9265595047  
 【TensorFlowのTutorialをざっくり日本語訳していく】1. MNIST For ML Beginners  
 http://qiita.com/qooa/items/3719fec3cfe764674fb9
