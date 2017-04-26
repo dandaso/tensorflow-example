@@ -40,7 +40,7 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 http://no-title.com/programming/python3-tensorflow  
 
 ### MNIST
-初心者のためのMNIST  
+初心者のためのMNIST  
 https://www.tensorflow.org/get_started/mnist/beginners  
 TensorFlow本家のチュートリアル  
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/mnist  
