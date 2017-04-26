@@ -37,6 +37,12 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 - 6.mnist_multi_optimizer.py  
  mnist_cnn.pyを勾配降下法以外の、AdaGrad、	Momentum、Adamなど様々な方法で実装
 
+## TensorBoard
+```
+tensorboard --logdir=`pwd`/MNIST_data
+```
+起動後に http://localhost:6006/ にアクセス
+
 ## 参考URL
 
 ### 構築
@@ -56,3 +62,11 @@ TensorFlowのHighLevelAPIについての雑感つき解説
 http://qiita.com/rindai87/items/72651c702e9265595047  
 【TensorFlowのTutorialをざっくり日本語訳していく】  
 http://qiita.com/qooa/items/3719fec3cfe764674fb9
+
+### TensorBoard
+本家サンプル  
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/mnist/mnist_with_summaries.py  
+MNIST For ML Beginnersの学習経過をTensorBoardで視覚化  
+http://yoitaka.hatenablog.jp/entry/2016/12/29/000554  
+
+
