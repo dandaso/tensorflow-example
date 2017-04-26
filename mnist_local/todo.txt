@@ -1,0 +1,13 @@
+# ses.runの第一引数
+# random_normal とか zeroとか truncated_normalとか
+# softmaxがなぜ違うのか
+
+# cloud http://tensorflow.classcat.com/category/mnist/
+
+# CNN
+# autoencoder.py
+# RNN(LSTM)
+# dynamic_RNN
+# Bidirectional RNN
+ 
+
