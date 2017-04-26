@@ -14,7 +14,6 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 1.0.0
 ```
 
-
 ## TensorFlowの大まかな流れ
 - 1.入力用にplaceholderを用意
 - 2.重みやバイアス用にVariableを用意
@@ -23,8 +22,16 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 - 5.最適化の方法を定義
 - 6.セッションを定義して学習を実行
 
-## 実行
+## プログラム
 
+- 1.mnist.py  
+ もっとも単純なニューラルネットワーク、各関数をバラして、わかりやすくしてある
+- 2.mnist_step.py  
+ mnist.pyを改良し、学習の途中経過などが見れるようにしてある。このプログラムがベースになる  
+- 3.mnist_mnn.py  
+ mnist_step.pyを複数レイヤーにしたバージョン  
+- 4.mnist_cnn.py  
+ mnist_mnn.pyを参考に畳み込みネットワークを実装したバージョン  
 
 ## 参考URL
 初心者のためのMNIST  
