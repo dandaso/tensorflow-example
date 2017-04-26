@@ -27,8 +27,8 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 
 
 ## 参考URL
-初心者のためのMNIST　　
-https://www.tensorflow.org/get_started/mnist/beginners　　
+初心者のためのMNIST  
+https://www.tensorflow.org/get_started/mnist/beginners  
 【Mac】Python3（Anaconda）でTensorFlow環境を構築してみる  
 http://no-title.com/programming/python3-tensorflow  
 TensorFlow本家のチュートリアル  
