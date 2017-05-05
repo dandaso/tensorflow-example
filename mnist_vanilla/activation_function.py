@@ -2,8 +2,12 @@ import numpy as np
 # 活性化関数
 class ActivationFunction:
     @classmethod
-    def sigmoid(cls, a):
+    def sigmoid(cls, x):
         return 1 / (1 + np.exp(-x))
+
+    @classmethod
+    def sigmoid_grad(cls, x):
+        return (1.0 - ActivationFunction.sigmoid(x)) * ActivationFunction.sigmoid(x)
  
     @classmethod
     def relu(cla, a):
