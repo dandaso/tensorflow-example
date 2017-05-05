@@ -1,0 +1,24 @@
+
+
+
+
+sigmoid ok
+relu    ok
+softmax ok
+二乗和誤差 ok?
+cross entropy ok?
+
+mini_batch
+
+微分/偏微分
+勾配法
+誤差逆伝搬法
+
+
+
+
+
+
+
+
+
