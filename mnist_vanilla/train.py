@@ -4,7 +4,7 @@ from two_layer_net import TwoLayerNet
 mnist = tf.contrib.learn.datasets.mnist.read_data_sets("MNIST_data/", one_hot=True)
 network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
 
-epoch = 100000
+epoch = 10000
 batch_size = 200
 learning_rate = 0.1
 

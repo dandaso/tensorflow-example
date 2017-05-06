@@ -29,8 +29,8 @@ y_ = tf.placeholder(tf.float32, [None, 10], "y_")
 # やってることは同じに見えるんだけど、なんで変更されているか謎。変更しないと学習が上手くいかない
 cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=h3, labels=y_))
 
-train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
-#train_step = tf.train.AdamOptimizer(learning_rate=0.001).minimize(cross_entropy)
+#train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
+train_step = tf.train.AdamOptimizer(learning_rate=0.001).minimize(cross_entropy)
 
 correct_prediction = tf.equal(tf.argmax(h3,1), tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
@@ -40,7 +40,7 @@ print("--- 訓練開始 ---")
 with tf.Session() as sess:
     # 初期化
     sess.run(tf.global_variables_initializer())
-    for i in range(3000):
+    for i in range(10000):
         batch = mnist.train.next_batch(100)
         sess.run([train_step, cross_entropy], feed_dict={x: batch[0], y_: batch[1]})
     # 精度の実行と表示

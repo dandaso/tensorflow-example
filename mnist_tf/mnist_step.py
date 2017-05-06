@@ -76,7 +76,7 @@ print("--- 訓練開始 ---")
 # Sessionを開始する
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
-    for i in range(1000):
+    for i in range(3000):
         batch = mnist.train.next_batch(100)
         train_accuracy = accuracy.eval(feed_dict={x: batch[0], y_: batch[1]})
         print('step %d, training accuracy %g' % (i, train_accuracy))

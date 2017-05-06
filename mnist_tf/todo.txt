@@ -11,3 +11,14 @@
 # Bidirectional RNN
  
 
+
+mnist.py     :single layer nn
+mnist_mnn.py :multi_layer_nn
+
+
+mnist_tb     :nn with tensor board
+
+
+-rw-r--r--   1 dandaso  staff  4510  4 26 13:15 mnist_step.py
+-rw-r--r--   1 dandaso  staff   242  4 26 18:47 todo.txt
+
