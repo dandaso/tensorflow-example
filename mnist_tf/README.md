@@ -30,9 +30,9 @@ python -c "import tensorflow as tf; print(tf.__version__)"
  mnist.pyを改良し、学習の途中経過などが見れるようにしてある。このプログラムがベースになる  
 - 3.mnist_tb.py  
  mnist_step.pyに可視化ツール TensorBoardを導入して見やすくした  
-- 4.mnist_mnn.py  
+- 4.mnist_mlp.py  
  mnist_step.pyを複数レイヤーにしたバージョン  
-- 5.mnist_mlp.py  
+- 5.mnist_cnn.py  
  mnist_mnn.pyを参考に畳み込みネットワークを実装したバージョン  
 - 6.mnist_multi_optimizer.py  
  mnist_cnn.pyを勾配降下法以外の、AdaGrad、	Momentum、Adamなど様々な方法で実装
