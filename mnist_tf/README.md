@@ -71,4 +71,6 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutoria
 MNIST For ML Beginnersの学習経過をTensorBoardで視覚化  
 http://yoitaka.hatenablog.jp/entry/2016/12/29/000554  
 
-
+### CNN
+TensorflowでCNNを作る際に使いそうな関数を列挙してみた　　
+http://qiita.com/tadOne/items/b484ce9f973a9f80036e　　　
